@@ -73,3 +73,9 @@ js/camera.js	Класс Camera, реализует следящую камеру
 js/collision.js	Утилиты для проверки столкновений между объектами
 
 js/utils.js	Вспомогательные функции: clamp, randomRange, distance и др.
+
+<img width="1162" height="596" alt="скрин4" src="https://github.com/user-attachments/assets/9c62c0cf-f097-4409-9b7e-6fca6c217946" />
+<img width="1231" height="793" alt="скрин1" src="https://github.com/user-attachments/assets/bc379250-ec07-4802-a30c-fe3d31a3e83b" />
+<img width="1215" height="804" alt="скрин5" src="https://github.com/user-attachments/assets/a38f38bb-93ff-40dc-bd2b-33e15f7f089c" />
+<img width="1298" height="817" alt="скрин3" src="https://github.com/user-attachments/assets/6f2f54ca-e203-445e-bd7a-10e0da2d6a75" />
+<img width="1223" height="821" alt="скрин2" src="https://github.com/user-attachments/assets/2d9ea490-8a09-4443-a140-6d3c9f4b86ae" />

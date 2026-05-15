@@ -1,0 +1,77 @@
+/* Добавьте в конец файла */
+
+.level-selector {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 15px;
+    padding: 10px;
+    background: #0f2120e0;
+    backdrop-filter: blur(4px);
+    border-radius: 60px;
+    border: 1px solid #7eb09e;
+}
+
+.level-btn {
+    background: #2a4a3a;
+    border: none;
+    padding: 8px 20px;
+    font-size: 1rem;
+    font-family: monospace;
+    font-weight: bold;
+    border-radius: 40px;
+    color: #ffeaac;
+    cursor: pointer;
+    transition: 0.1s linear;
+    box-shadow: 0 3px 0 #1a3a2a;
+}
+
+.level-btn:hover {
+    background: #3a6a4a;
+    transform: translateY(-1px);
+}
+
+.level-btn:active {
+    transform: translateY(2px);
+    box-shadow: 0 1px 0 #1a3a2a;
+}
+
+.level-btn.active {
+    background: #d4af37;
+    color: #1a2a1a;
+    box-shadow: 0 3px 0 #a08020;
+}
+
+.score-container {
+    background: #00000066;
+    padding: 6px 18px;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.score-display, .highscore-display {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #ffeaac;
+}
+
+.score-display span, .highscore-display span {
+    color: #ffd700;
+    font-size: 1.3rem;
+}
+
+.floating-score {
+    position: absolute;
+    font-size: 1.5rem;
+    font-weight: bold;
+    pointer-events: none;
+    z-index: 100;
+    animation: floatUp 0.8s ease-out forwards;
+}
+
+@keyframes floatUp {
+    0% { opacity: 1; transform: translateY(0) scale(1); }
+    100% { opacity: 0; transform: translateY(-60px) scale(1.5); }
+}
